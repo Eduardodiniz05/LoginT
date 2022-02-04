@@ -8,25 +8,28 @@ body {
     display: flex;
     align-items: center;
     width: 1800px;
-    height: 890px;
+    height: 960px;
     background-color: rgba(169, 169, 169, 0.918);
-
 }
 
 .container {
     width: 1700px;
-    height: 1000px;
+    height: 960px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #fff;
 }
 
+label {
+    font-weight: bold;
+    font-size: 16px;
+}
 
 
 img {
     width: 850px;
-    height: 1000px;
+    height: 960px;
 }
 
 .log-signup {
@@ -40,13 +43,18 @@ img {
 .logon {
     padding-bottom: 2em ;
 }
+.acount-create {
+width: 584;
+height: 13em;
+text-align: center;
+}
 
 .acount-create a {
     color: blue;
-    display:flex;
     width: 60%;  
     font-size: 12;
     font-weight: bold;
+    background-color: #E8EDFF;
 }
 
 h4 {
@@ -56,3 +64,4 @@ h4 {
 #usuario, #password, #entrar {
     width: 100%;
 }
+
