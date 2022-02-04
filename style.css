@@ -1,19 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    width: 1800px;
+    height: 1024px;
+
 }
 
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
-.container img {
-    width: auto;
-    height: auto;
-    max-width: 760;
-    max-height: 1024;
+
+
+img {
+    max-width: 100%;
+    max-height: 60%;
+}
+
+.log-signup {
+    width: 583px;
+    height: 569px;
+    margin-left: 4em;
+    margin-bottom: 4em;
+    margin-top: 15rem;
+}
+
+.acount-create a {
+    color: #000;
+    
 }

@@ -6,31 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LoginT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <img src="./img/bright2.jpg" alt="imagem">
-        <div class="log-signup">
-            <div>
+        <div class="img">
+            <img src="./img/bright2.jpg" alt="imagem">
+        </div>
+             <div class="log-signup">
+            <div class="logon border-3">
                 <h1>LoginT</h1>
                 <p>Logue com o usuario e senha criado durante o resgistro</p>
-                <h6>Logue com o usuario e senha criado durante o resgistro</h6>
-            <label for="usuario">Usuario</label>
-            <input type="text" name="" id="usuario" placeholder="Coloque seu Usuario" name="usuario">
-
-            <label for="password">Senha</label>
-            <input type="password" name="" id="password" placeholder="Coloque sua Senha" name="password">
-            <button type="submit">Entrar</button>
-
-            <a href="#"><h6>esqueceu sua senha? </h6></a>
+                <label for="usuario">Usuario:</label>
+                <input type="text" class="btn btn-light btn-lg" name="" id="usuario" placeholder="Digite seu Usuario" name="usuario">
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" class="btn btn-light btn-lg" name="" id="password" placeholder="Coloque sua Senha" name="password">
+                <br>
+                <button type="submit" class="btn btn-primary btn-lg">Entrar</button>
+                <a href="#" class="">
+                    <h6>esqueceu sua senha? </h6>
+                </a>
             </div>
-
-            <div>
-                <a href="#">Criar conta</a>
+            
+            
+            <div class="acount-create">
+                    <p>Logue com o usuario e senha criado durante o resgistro</p>
+                    <a href="#" class="btn btn-light">Criar conta</a>
+                </div>
             </div>
-        </div>
     </div>
 
 </body>
